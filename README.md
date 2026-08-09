@@ -10,7 +10,7 @@ class SmartNotes:
         self.db = Path("notes.json")
 
         if not self.db.exists():
-            self.db.write_text("[]", encoding="utf-8")
+            self.db.write_text("[]", encoding="utf-88")
 
     def load(self):
         with open(self.db, "r", encoding="utf-8") as f:
