@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 from collections import Counter
-import re0
+import re
 
 
 class SmartNotes:
