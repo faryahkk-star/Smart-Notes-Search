@@ -1,4 +1,4 @@
-import json1
+import json
 from pathlib import Path
 from collections import Counter
 import re
